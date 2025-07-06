@@ -4,9 +4,14 @@ I use it for my Palworld server; that's why there is written PalServer GUI, but 
 
 Eventually you need to edit the player count function or some others slightly to use it for your dedicated server. 
 
-You can run it via Python, or you can run it if using the .exe in the dist directory. 
+# How to run the Steam Dedicated Server GUI
 
-Windows thinks it is a virus, but it's not!. I try to fix it, but my local AI can't do that.
+You can run it via Python, or make an .exe out of it with `pyinstaller`.
+
+PyInstaller is easy to install with `pip install pyinstaller`.
+
+After it use the command `pyinstaller --onefile steam_server_gui_improved.py` in the directy where the steam_server_gui_improved.py is saved on your pc. 
+
 
 ![GUI-Screenshot](GUI-Screenshot.jpg)
 
