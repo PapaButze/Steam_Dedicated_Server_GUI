@@ -8,7 +8,7 @@ You can run it via Python, or you can run it if using the .exe in the dist direc
 
 Windows thinks it is a virus, but it's not!. I try to fix it, but my local AI can't do that.
 
-GUI-Screenshot.jpg
+![Alt text](images/screenshot.png)
 
 # PalServer GUI - README
 
