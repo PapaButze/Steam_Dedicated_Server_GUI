@@ -576,7 +576,7 @@ def update_new_players(response):
             if new_players:
                 log_message(f"New players detected: {new_players}")
                 for player_name in new_players:
-                    welcome_message = f'broadcast "Willkommen {player_name} auf dem Palserver von Kommand-Pimperle!"'
+                    welcome_message = f'broadcast "Willkommen {player_name} auf dem Palserver von XXXX!"'
                     send_rcon_command(welcome_message)
                     log_message(f"Sent welcome message to: {player_name}")
 
