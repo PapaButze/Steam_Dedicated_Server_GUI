@@ -122,5 +122,15 @@ The GUI provides multiple tabs for logs:
 
 Review these logs for detailed debugging information.
 
+## Automatic Server Restart
+
+One key feature of this GUI is its ability to automatically restart the server if it crashes. The function `check_server_and_restart()` monitors the server process continuously. If it detects that the server has crashed (i.e., the process is no longer running), it will:
+1. Log an error message indicating the server has crashed.
+2. Wait for a short period before attempting to restart to prevent rapid cycling in case of repeated crashes.
+3. Restart the server using the same executable path defined by `SERVER_EXE_PATH`.
+4. Send an RCON command to get server info after restarting, and update player count.
+
+This feature ensures that your server stays online even if it encounters issues, providing a more stable experience for players.
+
 ## Conclusion
-The PalServer GUI provides a streamlined way to manage your dedicated game servers on Steam. With clear interfaces and automated features, it reduces the complexity of maintaining servers, allowing you to focus on gameplay.
+The PalServer GUI provides a streamlined way to manage your dedicated game servers on Steam. With clear interfaces and automated features like automatic restarts upon crashing, it reduces the complexity of maintaining servers, allowing you to focus on gameplay.
