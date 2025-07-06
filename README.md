@@ -1,4 +1,4 @@
-# This is a simple Steam Dedicated Server GUI fully coded with local AI in Visual Studio with Cline.
+# This is a simple Steam Dedicated Server GUI fully coded with local AI in Visual Studio Code with Cline.
 
 I use it for my Palworld server; that's why there is written PalServer GUI, but I think it can be used for many more dedicated servers that use RCON to communicate with the server. 
 
