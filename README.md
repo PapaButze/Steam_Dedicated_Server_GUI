@@ -6,7 +6,7 @@ Eventually you need to edit the player count function or some others slightly to
 
 # How to run the Steam Dedicated Server GUI
 
-Read the Usage Instructions before and edit the `team_server_gui_improved.py` with your pathes.
+Read the Usage Instructions before and edit the `steam_server_gui_improved.py` with your pathes.
 
 You can run it via Python, or make an .exe out of it with `pyinstaller`.
 
