@@ -1,14 +1,3 @@
-This is a simple Steam Dedicated Server GUI fully coded with local AI.
-
-I use it for my Palworld server; that's why there is written PalServer GUI, but I think it can be used for many more dedicated servers that use RCON to communicate with the server. 
-
-Eventually you need to edit the player count function or some others slightly to use it for your dedicated server. 
-
-You can run it via Python, or you can run it if using the .exe in the dist directory. 
-
-Windows thinks it is a virus, but it's not!. I try to fix it, but my local AI can't do that.
-
-
 # PalServer GUI - README
 
 ## Introduction
@@ -69,7 +58,7 @@ STEAMCMD_PATH = r"path_to_steamcmd.exe"
 SAVE_GAMES_DIR = r"path_to_save_games_directory"
 BACKUP_DIR = r"path_to_backup_directory"
 
-RCON_PORT = portnumber
+RCON_PORT = 25575
 RCON_PASSWORD = "your_rcon_password"
 RCON_IP = "localhost"
 ```
