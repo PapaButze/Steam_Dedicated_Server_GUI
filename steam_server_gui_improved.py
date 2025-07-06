@@ -9,13 +9,13 @@ import shutil
 from mcrcon import MCRcon
 
 # Constants (update these with actual paths and credentials)
-SERVER_EXE_PATH = r"C:\Server\Palworld\steamapps\common\PalServer\PalServer.exe"
-STEAMCMD_PATH = r"C:\Server\Palworld\steamcmd.exe"
-SAVE_GAMES_DIR = r"C:\Server\Palworld\steamapps\common\PalServer\Pal\Saved\SaveGames"
-BACKUP_DIR = r"C:\Users\MMCDPapa\Desktop\Palworld\Saves"
+SERVER_EXE_PATH = r"path_to_your_server.exe"
+STEAMCMD_PATH = r"path_to_steamcmd.exe"
+SAVE_GAMES_DIR = r"path_to_save_games_directory"
+BACKUP_DIR = r"path_to_backup_directory"
 
-RCON_PORT = 25575
-RCON_PASSWORD = "1503"
+RCON_PORT = portnumber
+RCON_PASSWORD = "your_rcon_password"
 RCON_IP = "localhost"
 
 # Function to execute a shell command and capture output
