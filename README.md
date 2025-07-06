@@ -97,7 +97,7 @@ The server automatically sends a welcome message to new players using the RCON b
 2. Locate the `update_new_players()` function, which contains the current welcome message.
 3. Modify the line:
    ```python
-   welcome_message = f'broadcast "Willkommen {player_name} auf dem Palserver von Kommand-Pimperle!"'
+   welcome_message = f'broadcast "Willkommen {player_name} auf dem Palserver von XXXX!"'
    ```
 4. Replace the text inside the quotes with your desired welcome message.
 5. Save the file and restart the GUI to apply the changes.
