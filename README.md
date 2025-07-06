@@ -36,6 +36,9 @@ pip install mcrcon
 
 ## Functions Overview
 
+### `update_new_players()`
+The server will say hello to every new player by broadcasting a welcome message. This feature uses the RCON command to send personalized messages as players join.
+
 ### `run_command(command)`
 Executes a shell command and captures the output. Used for running external commands like SteamCMD.
 
@@ -85,6 +88,19 @@ RCON_IP = "localhost"
 ```
 
 ## Usage Instructions
+
+### Changing the Welcome Message
+
+The server automatically sends a welcome message to new players using the RCON broadcast command. To change this message:
+
+1. Open the `steam_server_gui_improved.py` file.
+2. Locate the `update_new_players()` function, which contains the current welcome message.
+3. Modify the line:
+   ```python
+   welcome_message = f'broadcast "Willkommen {player_name} auf dem Palserver von Kommand-Pimperle!"'
+   ```
+4. Replace the text inside the quotes with your desired welcome message.
+5. Save the file and restart the GUI to apply the changes.
 
 ### Starting the GUI
 1. Open a terminal and navigate to the directory containing `steam_server_gui_improved.py`.
