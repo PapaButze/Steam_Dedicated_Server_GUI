@@ -10,7 +10,7 @@ You can run it via Python, or make an .exe out of it with `pyinstaller`.
 
 PyInstaller is easy to install with `pip install pyinstaller`.
 
-After it use the command `pyinstaller --onefile steam_server_gui_improved.py` in the directy where the steam_server_gui_improved.py is saved on your pc. 
+After it use the command `pyinstaller --onefile steam_server_gui_improved.py` in the directy where the steam_server_gui_improved.py is saved on your device.
 
 
 ![GUI-Screenshot](GUI-Screenshot.jpg)
